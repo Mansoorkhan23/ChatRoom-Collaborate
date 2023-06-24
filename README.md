@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# ChatRoom-Collaborate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains a ChatRoom application built with React that allows users to sign in with their Google accounts and join chat rooms to communicate with other users. The application utilizes Firebase as the backend to store user data and chat room messages. 
 
-## Available Scripts
+Deployed Link: 
 
-In the project directory, you can run:
+## Features:
+- User authentication with Google Sign-In.
+- Creation of chat rooms by entering a room name.
+- If a chat room already exists, the application fetches previous messages for that room.
+- If a chat room doesn't exist, a new room is created, and users can enter and send messages.
+- Other users can join existing chat rooms by entering the room name and joining the conversation.
+- Inside the chat rooms, multiple users can send and receive messages in real-time.
 
-### `npm start`
+## Steps to follow -
+1. Open the application by accessing the live deployed link.
+2. Sign in with your Google account to access the ChatRoom.
+3. When prompted, enter a chat room name and press the "Enter" button.
+4. If the chat room already exists, you'll see the previous messages. Otherwise, a new room will be created.
+5. Share the chat room name with other users who wish to join the conversation.
+6. Other users can sign in with their Google accounts and enter the chat room name to join the chat.
+7. Start sending messages and enjoy the real-time communication with other users in the chat room.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
+The ChatRoom application utilizes the following technologies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Frontend: React, CSS
+- Backend: Firebase
+- Authentication: Google Sign-In from Firebase
 
-### `npm test`
+## Outlook of the page:
+Sign in with google (Firebase Authentication):
+![1](https://github.com/Mansoorkhan23/ChatRoom-Collaborate/assets/130406848/a079161e-66fd-4df0-afe9-ae2919c357b5)
+Enter the chatroom name:
+![2](https://github.com/Mansoorkhan23/ChatRoom-Collaborate/assets/130406848/a76e355b-4939-4a3e-a0c5-12045635e41a)
+Live conversation:
+![3](https://github.com/Mansoorkhan23/ChatRoom-Collaborate/assets/130406848/40d338b5-d39b-4484-a59c-c85a7c96ebad)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
