@@ -2,7 +2,7 @@
 
 This repository contains a ChatRoom application built with React that allows users to sign in with their Google accounts and join chat rooms to communicate with other users. The application utilizes Firebase as the backend to store user data and chat room messages. 
 
-Deployed Link: 
+Deployed Link: https://chatapp-68af3.web.app
 
 ## Features:
 - User authentication with Google Sign-In.
